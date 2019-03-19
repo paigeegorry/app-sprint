@@ -5,7 +5,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 //eslint-disable-next-line
 module.exports = {
-  entry: './react-mockup/src/index.js',
+  entry: './src/index.js',
   output: {
     filename: 'bundle.[hash].js',
     publicPath: '/'
@@ -17,7 +17,7 @@ module.exports = {
   plugins: [
     new DotenvPlugin({ systemvars: true }),
     new HtmlPlugin({
-      template: './react-mockup/src/index.html'
+      template: './src/index.html'
     }),
     new CleanPlugin('./dist'),
     new CopyWebpackPlugin([{ 
