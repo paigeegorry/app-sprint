@@ -1,4 +1,4 @@
 export const getRandom = () => {
-  return fetch(`${process.env.API_URL}`)
+  return fetch('https://backendrunb.herokuapp.com/random')
     .then(res => res.json());
 };
