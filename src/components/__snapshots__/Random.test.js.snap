@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Random snapshot can match a snapshot 1`] = `
+Array [
+  <p />,
+  <button
+    onClick={[MockFunction]}
+  >
+    Get Random
+  </button>,
+]
+`;
